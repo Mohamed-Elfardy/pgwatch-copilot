@@ -66,10 +66,6 @@ active_connections
 There are currently 2 active connections to postgres-local.
 This is a low number, suggesting the database is not under heavy load at the moment.
 
-You: What is the cache hit ratio?
-
-You: Are there any deadlocks?
-
 You: exit
 👋 Bye!
 ```

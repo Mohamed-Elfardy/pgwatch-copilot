@@ -107,7 +107,8 @@ pgwatch-copilot/
 
 ## Key Design Decisions
 
-Based on discussions with mentors **Ahmed Gouda** and **Pavlo Golub**:
+Based on the comments in slack and discussions with mentors **Ahmed Gouda** and **Pavlo Golub**:
+
 
 **Pluggable LLM Providers**
 The copilot is not tied to a specific model. A common `Provider` interface supports multiple backends — Groq, Gemini, and easily extensible to OpenAI, Claude, or local models via Ollama.
